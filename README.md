@@ -123,6 +123,7 @@ TASK 3:
 
 > To store group of integers using ArrayList
 
+```
 import java.util.*;
 class displayInt
 {
@@ -140,4 +141,4 @@ class displayInt
 		}
 	}
 }
-
+```
