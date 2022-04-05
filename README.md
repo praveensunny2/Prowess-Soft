@@ -123,7 +123,7 @@ TASK 3:
 
 > To store group of integers using ArrayList
 
-```
+```ruby
 import java.util.*;
 class displayInt
 {
