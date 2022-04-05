@@ -119,3 +119,25 @@ public class Main
 Updating ...
 ```
 
+TASK 3:
+
+> To store group of integers using ArrayList
+
+import java.util.*;
+class displayInt
+{
+	public static void main (String[] args)
+	{
+		ArrayList al = new ArrayList();
+		for(int i = 11 ; i <= 20; i++)
+		{
+			al.add(i);
+		}
+		Iterator it = al.iterator();
+		while(it.hasNext())
+		{
+			System.out.println(it.next());
+		}
+	}
+}
+
