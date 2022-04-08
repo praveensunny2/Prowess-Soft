@@ -175,3 +175,34 @@ class Main
 	}
 }
 ```
+> A Program using Stack Interface
+
+```ruby
+import java.util.*;
+class Main
+{
+	public static void main (String[] args)
+	{
+		
+		Stack st = new Stack();
+		for(int i=10;i<=60;i=i+10)
+		{
+			st.push(i);
+		}
+		Iterator it = st.iterator();
+		while(it.hasNext())
+		{
+			System.out.println(it.next());
+		}
+		
+		System.out.println("Removed element: "+st.pop());
+		System.out.println("Removed element: "+st.pop());
+		
+		Iterator it1 = st.iterator();
+		while(it1.hasNext())
+		{
+			System.out.println(it1.next());
+		}
+	}
+}
+```
