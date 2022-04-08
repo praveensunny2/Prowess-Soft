@@ -142,3 +142,36 @@ class displayInt
 	}
 }
 ```
+
+> A Program using Queue Interface
+
+```ruby
+import java.util.*;
+class Main
+{
+	public static void main (String[] args)
+	{
+		PriorityQueue pq = new PriorityQueue();
+
+		for(int i=1;i<=6;i++)
+		{
+			pq.add(i);
+		}
+
+		Iterator it = pq.iterator();
+		while(it.hasNext())
+		{
+			System.out.println(it.next());
+		}
+		//Deletes the front of the queue
+		System.out.println("Dequeue element: "+pq.remove());	
+		System.out.println("Dequeue element: "+pq.poll());
+		
+		Iterator it1 = pq.iterator();
+		while(it1.hasNext())
+		{
+			System.out.println(it1.next());
+		}
+	}
+}
+```
